@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #562eff;
+  margin-bottom: 30px;
+}
+.nav-logo img {
+  width: 40.42px;
+  height: 51px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo h3 {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.nav-item {
+  display: flex;
+}
+.nav-item ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-item ul li {
+  margin-left: 50px;
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+.nav-item img {
+  width: 51px;
+  height: 51px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+main {
+  margin-left: 200px;
+}
+.container {
+  background: #ffffff;
+  width: 870px;
+  padding: 30px;
+}
+.section-title {
+  color: #562eff;
+}
+.player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.player-img img {
+  width: 70px;
+  height: 70px;
+}
+
+.player-details {
+  display: flex;
+}
+.player-name {
+  margin-left: 10px;
+}
+/* ================== Blog Styles=========== */
+.blog-item {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+.blog {
+  display: flex;
+}
+.blog-image img {
+  width: 177px;
+  height: 117px;
+}
+.blog-title {
+  padding-left: 20px;
+  gap: 0;
+}
+.blog-title h3 {
+  position: relative;
+  bottom: 10px;
+}
+.blog-title p {
+  position: relative;
+  bottom: 20px;
+}
+.blog-title span {
+  color: #562eff;
+}
+/* ====================Course Styles============== */
+.course-section {
+  margin-top: 20px;
+}
+.course-img img {
+  width: 224px;
+  height: 104px;
+}
+.course p {
+  color: #ed6b4f;
+  position: relative;
+  bottom: 20px;
+}
+.course-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.course {
+}
